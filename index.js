@@ -10,8 +10,8 @@ export default function HomePage() {
   const [frequency, setFrequency] = useState(undefined);
   const [randomNumber, setRandomNumber] = useState(null);  // State to store the random number
 
-  const contractABI = atm_abi.abi; // Import the ABI correctly
-  const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'; // Replace with your contract address
+  const contractABI = atm_abi.abi;
+  const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
 
   // Initialize MetaMask and Ethereum wallet connection
   const getWallet = async () => {
